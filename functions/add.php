@@ -29,7 +29,7 @@
                 $result = mysqli_query($dbc, "INSERT INTO tblsubjects(subject_code, subject_name) VALUES('$code','$name')");
                 //display success message
                 echo "<font color='green'> Data added successfully.";
-                echo "<br/><a href='../functions/index.php>View Result </a>";
+                echo "<br/><a href='./index.php>View Result </a>";
             }
             
         }
