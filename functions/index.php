@@ -28,6 +28,7 @@
             while($res = mysqli_fetch_assoc($result)){
                 echo "<tr>";
                 echo "<td>". $res['subject_id']."</td>";
+                echo "<td>". $res['subject_id']."</td>";
                 echo "<td>". $res["subject_code"]."</td>";
                 echo "<td>". $res["subject_name"]."</td>";
                 echo "<td>". $res["syllabus_id"]."</td>";
